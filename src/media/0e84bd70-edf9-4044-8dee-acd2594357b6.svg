@@ -1,0 +1,18 @@
+<svg id="color_slider" width="263" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<defs>
+					<linearGradient id="hue" x1="100%" y1="0%" x2="0%" y2="0%">
+						<stop offset="0%" stop-color="#f00"></stop>
+						<stop offset="16.666%" stop-color="#ff0"></stop>
+						<stop offset="33.333%" stop-color="#0f0"></stop>
+						<stop offset="50%" stop-color="#0ff"></stop>
+						<stop offset="66.666%" stop-color="#00f"></stop>
+						<stop offset="83.333%" stop-color="#f0f"></stop>
+						<stop offset="100%" stop-color="#f00"></stop>
+					</linearGradient>
+				</defs>
+				<rect rx="5" ry="5" x="1" y="1" width="263" height="20" stroke="#fff" stroke-width="2" fill="url(#hue)"></rect>
+				<svg id="color_slider_dragger" x="277" y="11" style="overflow: visible;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<circle r="7" fill="none" stroke="#000" stroke-width="2"></circle>
+					<circle r="5" fill="none" stroke="#fff" stroke-width="2"></circle>
+				</svg>
+			</svg>
